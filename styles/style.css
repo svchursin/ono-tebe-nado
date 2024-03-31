@@ -26,7 +26,7 @@ header {
   list-style: circle;
 }
 
-.menu-link_active{
+.menu-link_active {
   text-decoration: none;
 }
 
@@ -231,7 +231,7 @@ header {
   font-size: 20px;
 }
 
-.about__text p:last-child{
+.about__text p:last-child {
   padding-bottom: 0px;
 }
 
