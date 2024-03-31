@@ -54,12 +54,9 @@ header {
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0.6);
 }
 
 .cover .cover__title {
@@ -74,11 +71,6 @@ header {
 
 .cover__title-span {
   display: block;
-}
-
-.cover .cover__img {
-  height: 755px;
-  object-fit: cover;
 }
 
 .aligned-text {
@@ -155,7 +147,6 @@ header {
   display: grid;
   grid-template-rows: auto auto;
   padding: 48px 40px;
-  background-color: rgba(0,0,0,0.6);
   height: 100%;
 }
 
