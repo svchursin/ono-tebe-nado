@@ -13,38 +13,34 @@
     <header class="container" id="header">
       <nav class="header__menu">
         <ul>
-          <li><a href="/">главная</a></li>
+          <li><a href="/" class="menu-link_active">главная</a></li>
           <li><a href="/#lots">посмотреть лоты</a></li>
           <li><a href="/#about">об аукционе</a></li>
         </ul>
       </nav>
-      <div>
-        <a href="/"><img src="./images/logo-black.svg" alt="Оно тебе надо"/></a>
-      </div>
+      <a href="/"><img src="./images/logo-black.svg" alt="Оно тебе надо"/></a>
       <div class="header__contact">
-        <div class="inside">
+        <address class="address">
           <p><a href="tel:99995555555">+9 999 555 5555</a></p>
           <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
           <p>наб. Принсенграхт 263-265,<br/> Амстердам</p>
-        </div>
+        </address>
       </div>
     </header>
     <main class="container">
       <section class="cover">
-        <img src="./images/cover.jpg" alt="" class="cover__img"/>
-        <div class="overlay">
-          <h1 class="cover__title">
-            <span class="cover__title-span aligned-text">о<span class="letter-spacing-extended">но</span></span>
-            <span class="cover__title-span aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
-            <span class="cover__title-span aligned-text_right "><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
-          </h1>
-          <div class="cover__description">
-            <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-            <button class="bet-button">Сделать ставку</button>
-          </div>
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="cover__title-span aligned-text">о<span class="letter-spacing-extended">но</span></span>
+          <span class="cover__title-span aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+          <span class="cover__title-span aligned-text_right "><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </div>
       </section>
-      <section id="lots">
+      <section id="lots" class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -80,7 +76,7 @@
         </ul>
         <a href="" class="lots__look-more-link">посмотреть больше</a>
       </section>
-      <section id="about">
+      <section id="about" class="about">
         <div class="about__column">
           <div class="about__logo">
             <img src="./images/logo-white.svg" alt="Оно тебе надо"/>
@@ -114,25 +110,23 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__social-list">
-        <ul>
-          <li class="footer__social-list-item">
-            <a href="" class="footer__social-link">
-              <img src="./images/yt.svg" class="footer__social-icon" alt="youtube"/>
-            </a>
-          </li>
-          <li class="footer__social-list-item">
-            <a href="" class="footer__social-link">
-              <img src="./images/vk.svg" class="footer__social-icon" alt="vk"/>
-            </a>
-          </li>
-          <li class="footer__social-list-item">
-            <a href="" class="footer__social-link">
-              <img src="./images/pinterest.svg" class="footer__social-icon" alt="pinterest"/>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a href="" class="footer__social-link">
+            <img src="./images/yt.svg" class="footer__social-icon" alt="youtube"/>
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a href="" class="footer__social-link">
+            <img src="./images/vk.svg" class="footer__social-icon" alt="vk"/>
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a href="" class="footer__social-link">
+            <img src="./images/pinterest.svg" class="footer__social-icon" alt="pinterest"/>
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
